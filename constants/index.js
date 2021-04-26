@@ -1,0 +1,1 @@
+export const URL_API = 'https://haoshop02.herokuapp.com'

@@ -1,0 +1,166 @@
+.checkout {
+  padding: 10rem 0;
+}
+.checkout-form__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+.checkout-form input {
+  outline: none;
+}
+.checkout-order {
+  width: 100%;
+  background-color: #f8f8f8;
+  background-image: url('https://shopgiayreplica.com/wp-content/themes/shopgiayreplica/images/checkout-border.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding: 40px 30px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+.checkout-order__title {
+  font-size: 2rem;
+  text-align: center;
+}
+.checkout-order .order-list {
+  margin-top: 2rem;
+}
+.checkout-order .order-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+.checkout-order .order-list__item span.quantity {
+  font-weight: 600;
+}
+.checkout-order .order-list__item span.size {
+  font-weight: 400;
+}
+.checkout-order .order-list__item span {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0 1rem;
+  text-transform: capitalize;
+}
+.checkout-order .order-list__item--price span {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.checkout-order .checkout-payment {
+  margin-top: 5rem;
+}
+.checkout-order .checkout-payment__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2rem 0;
+}
+.checkout-order .checkout-payment__item label {
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+}
+.checkout-order .checkout-button {
+  margin-top: 3rem;
+  max-width: 26.855rem;
+  max-height: 5.6rem;
+}
+.checkout-order .checkout-button button {
+  padding: 1.6rem 3rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #ffb900;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .checkout-order {
+    padding: 3rem 0;
+ }
+}
+
+
+.login-form .form__group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 47px;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+}
+.login-form .form__group--button {
+  border: none;
+}
+.login-form .form__field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 30rem;
+  height: 4.7rem;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+.login-form .form__error {
+  color: #f3327c;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+.login-form img {
+  margin: 1rem;
+  width: 2rem;
+  height: auto;
+  opacity: 0.5;
+}
+.login-form input {
+  width: 100%;
+  margin-right: 0.5rem;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  height: 100%;
+  padding-left: 0.5rem;
+}
+.login-form input:-webkit-autofill, .login-form input:-webkit-autofill:hover, .login-form input:-webkit-autofill:focus {
+  border: 1px solid transparent;
+  -webkit-text-fill-color: #222;
+  -webkit-box-shadow: 0 0 0px 1000px #000 0 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  font-size: 1.4rem;
+}
+.checkout-form {
+  width: 100%;
+}
+.checkout-form .form__field .form__group {
+  margin: 1rem 0rem;
+}
+.checkout-form .form__field .form__group input {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  border: none;
+  border:  1px solid #ccc;
+}
+.checkout-form .form__field .form__group select {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  border: none;
+  border:  1px solid #ccc;
+}
+.checkout-form .form__field .form__group select option {
+  font-size: 1.3rem;
+}
+.checkout-form .form__field .form__error {
+  color: red;
+  font-size: 1.4rem;
+}
