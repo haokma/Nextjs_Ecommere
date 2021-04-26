@@ -3,7 +3,7 @@ import 'antd/dist/antd.css';
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Loading from '../components/LoadingHistory';
-import OrderItem from '../components/Orderitem';
+import OrderItem from '../components/OrderItem';
 import { actionGetOrders } from '../store/actions/OrderAction';
 import Layout from '../components/Layout'
 const { TabPane } = Tabs;
